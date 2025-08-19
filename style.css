@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 0%;
+    background-image: url(https://wallpapers.com/images/hd/warrior-in-extraterrestrial-grounds-1440p-gaming-xrzfwz83rcmbq0qc.jpg);
+    transition: filter 0.09s ease-in-out;
+}
+
+.blur{
+    filter: blur(5px);
+}
+
+marquee {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 0%;
+    background-color: rgba(31, 31, 31, 0.115);
+    box-shadow:
+    0 4px 10px 8px rgba(0,0,0,0.3),
+    0 6px 20px 8px rgba(0,0,0,0.2);
+}
+
+#myDialog{
+    background: rgba(69, 68, 68, 0.1);
+    border: 1px solid rgba(49, 47, 47, 0.119);
+    color: rgb(9, 8, 8);
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    box-shadow:
+    0 4px 10px 8px rgba(6, 6, 6, 0.3),
+    0 6px 20px 8px rgba(6, 6, 6, 0.3);
+}
+#openDialog {
+    position: absolute;
+    top: 570px;
+    left: 700px;
+    padding: 12px 24px;
+}
+
+#closeDialog {
+    position: relative;
+    left:16%;
+    margin-top: 2%;
+    padding: 8px 20px;
+}
+
+#start{
+    position: relative;
+    left: 50%;
+    margin-top: 2%;
+    padding: 8px 22px;
+}
+
+.glassBtn {
+    background: rgba(69, 68, 68, 0.1);
+    border: 1px solid rgba(53, 52, 52, 0.119);
+    color: rgb(9, 8, 8);
+    font-size: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    box-shadow:
+    0 4px 10px 6px rgba(40, 40, 40, 0.3),
+    0 6px 20px 6px rgba(49, 49, 49, 0.2);
+    
+}
+.glassBtn:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: perspective(100px) translate3d(0, 0, 5px);
+    transition: transform 0.09s ease-in-out;
+    box-shadow: 
+    0 4px 10px 4px rgba(79, 13, 13, 0.3),
+    0 6px 20px 4px rgba(75, 15, 15, 0.2);
+}
+
+iframe {
+    border: 2px solid #333;
+    position: absolute;
+    height: 70%;
+    top: 20%;
+    left: 15%;
+}
+
+
+.merriweather-text{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>METIS INDUCTION HACKATHON</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body id="bg">
+
+    <marquee behavior="scroll" direction="left" scrollamount="15" style="color: blue; font-size: 30px;">
+        Welcome to the METIS INDUCTION HACKATHON!
+    </marquee>
+
+    <button id="openDialog" class="glassBtn">Start Game</button>
+    <dialog id="myDialog">
+        <p class="merriweather-text" style="text-align: center;margin: 1%;font-size: 25px;">Do You Want to Play With Me</p>
+        <embed id="img1" src="data:image/jpeg;base64,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"    type="image/jpeg" width="500" height="350" style="display:none;">
+        <button id="closeDialog" class="glassBtn">Close</button>
+        <button id="start" class="glassBtn">Start</button>
+    </dialog>
+
+    
+    <iframe src="https://example.com" width="400" height="200"></iframe>
+
+    <h3>Download Progress:</h3>
+    <progress value="60" max="100"></progress> 60%
+    <script src="script.js" ></script>
+</body>
+</html>
